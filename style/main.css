@@ -17,7 +17,17 @@ html {
   justify-content: center;
   align-items: center;
   background-color: #d6e2f0;
-  padding: 0 20px;
+  padding: 0 50px;
+}
+
+.box1 {
+  background-color: blue;
+  flex: 1 1 300px;
+}
+
+.box2 {
+  background-color: aqua;
+  flex: 1 1 300px;
 }
 
 .image-container {
