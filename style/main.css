@@ -17,6 +17,7 @@ html {
   justify-content: center;
   align-items: center;
   background-color: #d6e2f0;
+  padding: 0 20px;
 }
 
 .image-container {
@@ -24,6 +25,7 @@ html {
   border: 1px solid gray;
   padding: 15px;
   border-radius: 20px;
+  
 }
 
 .image-text-wrapper {
@@ -33,14 +35,37 @@ html {
   align-items: center;
 }
 
+.image-wrapper {
+  max-width: 375px;
+  height: auto;
+}
+
+.image-wrapper img {
+  width: 100%;
+  border-radius: 20px;
+}
+
 .image-explanation {
-  max-width: 500px;
+  max-width: 250px;
   margin-top: 30px;
 }
 
 .bold-text {
     font-weight: 700;
     text-align: center;
-    margin-bottom: 25px;
-    font-size: 15px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.normal-text {
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+@media all and (max-width: 400px) {
+  .main {
+  }
 }
